@@ -35,7 +35,7 @@ This repository contains the landing page developed to introduce the platform, c
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/solex-landing-page.git
+   git clone https://github.com/MylesMureithi/solex-landing-page.git
    ```
 
 2. Navigate into the project directory:
