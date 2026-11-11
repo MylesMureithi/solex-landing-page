@@ -1,16 +1,73 @@
-# React + Vite
+# Solex — Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive landing page for **Solex**, a study scheduling and burnout prevention platform designed to help students approach their academic workload more intentionally.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Solex aims to make academic planning more manageable by encouraging structured study sessions and healthier study habits.
 
-## React Compiler
+This repository contains the landing page developed to introduce the platform, communicate its value proposition, and collect early user interest.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- **Responsive Design** — Adaptable layouts for desktop and mobile devices.
+- **Waitlist Registration** — Firebase-powered user registration.
+- **Visit Tracking** — Records landing page visits.
+- **Analytics Dashboard** — Displays basic engagement metrics, including visits and registrations.
+- **Product Introduction** — Presents the platform's purpose, features, and value proposition.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React
+- Vite
+- CSS
+- Firebase
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/solex-landing-page.git
+   ```
+
+2. Navigate into the project directory:
+
+   ```bash
+   cd solex-landing-page
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL provided by Vite.
+
+## Deployment
+
+The landing page is deployed on Vercel.
+
+**Live Demo:** [solex-eta.vercel.app](https://solex-eta.vercel.app/)
+
+## Project Context
+
+Developed as part of a first-year academic project, contributing to the frontend implementation and Firebase integration for the Solex platform.
+
+---
+
+*Built with React, Vite, and Firebase.*
